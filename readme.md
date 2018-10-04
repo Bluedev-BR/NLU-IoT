@@ -83,13 +83,13 @@ Se você tiver um NodeMCU basta baixar o código disponível nessa [pasta](./Dev
 ### Omega2+ Files
 ![Omega2+Img](/Img/Omega2.jpeg)
 
-[Omega2+](http://onion.io) is development board with a linux kernel inside specifically designed for IoT applications, according to the maker "World's smallest Linux server".
+[Omega2+](http://onion.io) é uma placa de desenvolvimento especificamente projetada para IoT e de acordo com seus produtores "World's smallest Linux server".
 
-His linux kernel allows its to run any programming languages, in this specifaclly project is was used Node.js to connect and perform the commands sent by the IoT Platform.
+Por possuir o kernel do linux, ele pode rodar qualquer linguagem de programação. Para este projeto foi usado especificamente Node.js para conectar e executar os comandos enviados pela plataforma de IoT.
 
-If you have an Omega2+ or some development board similar you just need to copy the content of the Omega`s folder to your board and follow the next steps:
-1. run `npm install`;
-2. fufill the .env file with your IoT credentials and save
+Se você possui um Omega2+ ou alguma placa de desenvolvimento similar, basta você copiar o conteúdo da pasta do [Omega](./Device\ Code/Omega2+) para a sua placa e seguir os seguintes passos:
+1. Execute `npm install`;
+2. Preencha o arquivo .env com suas credenciais da plataforma de IoT
    ```env
    IOT_ORG=<YOUR_IOT_ORG_HERE>
    IOT_ID=<YOUR_IOT_ID_HERE>
@@ -97,7 +97,7 @@ If you have an Omega2+ or some development board similar you just need to copy t
    IOT_AUTH_KEY=<YOUR_IOT_AUTH_KEY>
    IOT_AUTH_TOKEN=<YOUR_IOT_AUTH_TOKEN>
    ```
-3. run `npm start`
+3. Execute `npm start`
 
 ### Dispositivo Simulado
 
