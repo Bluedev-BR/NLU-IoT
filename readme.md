@@ -1,6 +1,6 @@
 # Controlando Dispositivos IoT por Linguagem Natural
 
-Esse é repositório oficial da demonstração "Controlando Dispositivos IoT por Linguagem Natural" criada por Eduardo Petecof Mattoso e João Pedro Poloni Ponce. Aqui você encontra todos os códigos e recursos utilizados, bem como um tutorial para reproduzir a aplicação em sua conta na IBM Cloud.
+Esse é o repositório oficial da demonstração "Controlando Dispositivos IoT por Linguagem Natural" criada por Eduardo Petecof Mattoso e João Pedro Poloni Ponce. Aqui você encontra todos os códigos e recursos utilizados, bem como um tutorial para reproduzir a aplicação em sua conta na IBM Cloud.
 
 O objetivo da demonstração é construir um assitente virtual, que entende a voz ou o texto de um interlocutor, e envia comandos para os dispositivos IoT quando for necessário, para acender uma lâmpada ou obter o valor registrado por um sensor.
 
