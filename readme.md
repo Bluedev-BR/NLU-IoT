@@ -87,7 +87,7 @@ Se você tiver um NodeMCU basta baixar o código disponível nessa [pasta](./Dev
 
 Por possuir o kernel do linux, ele pode rodar qualquer linguagem de programação. Para este projeto foi usado especificamente Node.js para conectar e executar os comandos enviados pela plataforma de IoT.
 
-Se você possui um Omega2+ ou alguma placa de desenvolvimento similar, basta você copiar o conteúdo da pasta do [Omega](./Device\ Code/Omega2+) para a sua placa e seguir os seguintes passos:
+Se você possui um Omega2+ ou alguma placa de desenvolvimento similar, basta você copiar o conteúdo da pasta do [Omega](./Device%20Code/Omega2+) para a sua placa e seguir os seguintes passos:
 1. Execute `npm install`;
 2. Preencha o arquivo .env com suas credenciais da plataforma de IoT
    ```env
