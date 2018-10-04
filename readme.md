@@ -2,9 +2,9 @@
 
 Esse é o repositório oficial da demonstração "Controlando Dispositivos IoT por Linguagem Natural" criada por Eduardo Petecof Mattoso e João Pedro Poloni Ponce. Aqui você encontra todos os códigos e recursos utilizados, bem como um tutorial para reproduzir a aplicação em sua conta na IBM Cloud.
 
-O objetivo da demonstração é construir um assitente virtual, que entende a voz ou o texto de um interlocutor, e envia comandos para os dispositivos IoT quando for necessário, para acender uma lâmpada ou obter o valor registrado por um sensor.
+O objetivo da demonstração é construir um assistente virtual, que entende a voz ou o texto de um interlocutor, e envia comandos para os dispositivos IoT quando for necessário. Os comandos indicam que o dispositivo deve acender uma lâmpada ou obter o valor registrado por um sensor.
 
-Tudo que você precisa para reproduzir é [criar a sua conta](https://bluemix.net). Todos os serviços utilizados nessa demonstração são gratuitos.
+Tudo que você precisa para reproduzir essa demonstração é [criar a sua conta](https://bluemix.net). Todos os serviços utilizados nessa demonstração são gratuitos.
 
 ## Componentes
 
@@ -25,7 +25,7 @@ A Watson IoT Platform é um serviço que permite conectar dispositivos IoT à nu
 
 Usuários e aplicações podem utilizar a plataforma pelo Dashboard ou através de APIs para acompanhar, em tempo real, a situação de cada dispostivo e enviar comandos a eles.
 
-Siga o tutorial em [PDF](./presentationv1-03-10.pdf) para saber criar e configurar o serviço na sua conta.
+Siga o tutorial em [PDF](./presentationv1-03-10.pdf) para saber como criar e configurar o serviço na sua conta.
 
 ## IBM Cloud Functions
 
@@ -33,7 +33,7 @@ IBM Cloud Functions é o nome do serviço de FaaS (Functions as a Service) na IB
 
 Toda vez que a sua Cloud Function é acionada a nuvem já está preparada com um conjunto de containers em estado de hibernação, ela seleciona um deles para executar a sua rotina e o substitui assim que a execução termina. Ao invés de acionar a sua função manualmente você também pode definir gatilhos para execução, como um agendamento por exemplo. 
 
-Nessa demonstração vamos utilizar duas funções que enviam comandos aos dispositivos conectados na Watson IoT Platform e serão engatilhadas pelo Assistente Virtual. O código delas está disponível nesse [repositório](./Functions) e você pode enteder como criar e executar uma Cloud Function no tutorial em [PDF](./presentationv1-03-10.pdf).
+Nessa demonstração vamos utilizar duas funções que enviam comandos aos dispositivos conectados na Watson IoT Platform e serão engatilhadas pelo Assistente Virtual. O código delas está disponível nesse [repositório](./Functions) e você pode entender como criar e executar uma Cloud Function no tutorial em [PDF](./presentationv1-03-10.pdf).
 
 Exemplo de função:
 
@@ -48,11 +48,11 @@ Exemplo de parâmetros de entrada:
 
 ```json
 {
-    example: "Hello Wordl",
-    example01: 23,
-    example02:{
-        inside01:32,
-        inside02: "Inside Wordl"
+    "example": "Hello Wordl",
+    "example01": 23,
+    "example02":{
+        "inside01":32,
+        "inside02": "Inside Wordl"
     }
 }
 ```
@@ -76,9 +76,9 @@ Essa demonstração foi planejada utilizando os dois tipos de dispositivos reais
 ### NodeMCU Files
 ![NodeMCU](/Img/NodeMCU.jpeg)
 
-[NodeMCU]() is "An open-source firmware and development kit that helps you to prototype your IOT product within a few Lua script lines. {...} The Development Kit based on ESP8266, integates GPIO, PWM, IIC, 1-Wire and ADC all in one board. Power your developement in the fastest way combinating with NodeMcu Firmware!"
+[NodeMCU](http://nodemcu.com/index_en.html) is "An open-source firmware and development kit that helps you to prototype your IOT product within a few Lua script lines. {...} The Development Kit based on ESP8266, integates GPIO, PWM, IIC, 1-Wire and ADC all in one board. Power your developement in the fastest way combinating with NodeMcu Firmware!"
 
-Se você tiver um NodeMCU basta baixar o código disponível nessa [pasta](./Device Code/ESP8266) e seguir as indicações dos comentários.
+Se você tiver um NodeMCU basta baixar o código disponível nessa [pasta](./Device%20Code/ESP8266) e seguir as indicações dos comentários.
 
 ### Omega2+ Files
 ![Omega2+Img](/Img/Omega2.jpeg)
@@ -101,7 +101,7 @@ If you have an Omega2+ or some development board similar you just need to copy t
 
 ### Dispositivo Simulado
 
-Se você não tiver um dispositivo em mãos você pode criar um dispositivo simulado usando um servidor na nuvem. Nos mostramos como isso é feito no tutorial em [PDF](./presentationv1-03-10.pdf).
+Se você não tiver um dispositivo em mãos você pode criar um dispositivo simulado usando um servidor na nuvem. Nós mostramos como isso é feito no tutorial em [PDF](./presentationv1-03-10.pdf).
 
 ### Mobile app
 
