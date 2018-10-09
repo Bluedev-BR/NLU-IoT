@@ -1,24 +1,37 @@
-Este arquivo serve como modelo para voce manter suas chaves de autenticação em oredem
+Este arquivo serve como modelo para você salvar suas chaves de autenticação em ordem
 
-IBM Cloud
+0. IBM Cloud
 
     org: 
     space: 
 
-IBM Watson IoT Platform
+1. IBM Watson IoT Platform
+    
+    1.1. Device Credentials
 
-    ID: 
-    --------------------------
-    Device Credentials
-    Authentication Token: 
-    --------------------------
-    API Credentials
-    API Key: 
-    Authentication Token: 
+    - Organization ID (ORG): 
+    - Device Type: 
+    - Device ID: 
+    - Authentication Method: use-token-auth
+    - Authentication Token (Device): 
 
-IBM Cloud Functions
+    1.2 Application Credentials
 
-    Credentials
-    username: 
-    password: 
-    action:
+    - API Key: 
+    - Authentication Token (App): 
+
+2. Node-RED Simulated Device
+
+    - None.
+
+3. IBM Cloud Functions
+
+    - Auth Username:
+    - Auth Password: 
+    - Namespace: 
+    - Action 1:
+    - Action 2:
+
+4. IBM Watson Assistant
+
+    - None.
