@@ -28,7 +28,8 @@ Este arquivo serve como modelo para você salvar suas chaves de autenticação e
 
     - Auth Username:
     - Auth Password: 
-    - Namespace: 
+    - Namespace_org
+    - Namespace_space
     - Action 1:
     - Action 2:
 
